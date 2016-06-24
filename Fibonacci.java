@@ -2,7 +2,8 @@ public class Fibonacci
 {
 	public static void main(String args[])
 	{
-		System.out.println("The number " + args[0] + " Fibonacci number is " + fib(Integer.parseInt(args[0])) + ".");
+		if(args.length > 0)
+			System.out.println("The number " + args[0] + " Fibonacci number is " + fib(Integer.parseInt(args[0])) + ".");
 	}
 
 	public static int fib(int slot)
