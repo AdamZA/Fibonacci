@@ -1,0 +1,1 @@
+A simple java solution for returning the nth Fibonacci number, with the value for n being provided via args[0].
